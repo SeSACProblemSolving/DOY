@@ -10,7 +10,7 @@ body:
     attributes:
       label: Topic
       description: 무엇을 준비하고 공부했는지 
-      placeholder: ex. SMS Auth 확인하는 기능
+      placeholder: e.g. SMS Auth 확인하는 기능
     validations:
       required: true
       
@@ -19,7 +19,7 @@ body:
     attributes:
       label: Reference
       description: 참고한 내용들
-      placeholder: ex. 이것이코딩테스트다,공식문서
+      placeholder: e.g. 이것이코딩테스트다,공식문서
       value: |
         ## 공식문서
         - https://developer.apple.com
