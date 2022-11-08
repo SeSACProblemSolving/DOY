@@ -30,15 +30,15 @@ body:
       required: false
       
   - type: dropdown
-  id: ps-level
-  attributes:
-    label: Level
-    description: 난이도 (수정중)
-    options:
-      - 1단계 / 브론즈
-      - 2단계 / 실버 
-      - 3단계 / 골드
-      - 4단계 + 
+    id: ps-level
+    attributes:
+      label: Level
+      description: 난이도 (수정중)
+      options:
+        - 1단계 / 브론즈
+        - 2단계 / 실버 
+        - 3단계 / 골드
+        - 4단계 + 
   validations:
     required: true
 
