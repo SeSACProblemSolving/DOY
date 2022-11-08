@@ -1,1 +1,54 @@
+name: Problem Solving Template
+description: 알고리즘 문제를 풀면서 공부하고 고민한 내용을 적습니다.
+title: "[PS] Title"
+labels: ["PS"]
+assignees: heydoy
+
+body:
+  - type: input
+    id: ps-topic
+    attributes:
+      label: Topic
+      description: 무엇을 준비하고 공부했는지 
+      placeholder: ex. SMS Auth 확인하는 기능
+    validations:
+      required: true
+      
+  - type: textarea
+    id: ps-reference
+    attributes:
+      label: Reference
+      description: 참고한 내용들
+      placeholder: ex. 이것이코딩테스트다,공식문서
+      value: |
+        ## 공식문서
+        - https://developer.apple.com
+        ## 공식문서
+        - https://developer.apple.com
+        
+    validations:
+      required: false
+      
+  - type: dropdown
+  id: ps-level
+  attributes:
+    label: Level
+    description: 난이도 (수정중)
+    options:
+      - 1단계 / 브론즈
+      - 2단계 / 실버 
+      - 3단계 / 골드
+      - 4단계 + 
+  validations:
+    required: true
+
+  - type: input
+    id: ps-period
+    attributes:
+      label: Period
+      description: 문제 풀이 시작날짜(소요 시간)
+      placeholder: MM/dd(E) h시간 e.g. 11/08(화) 3시간
+    validations:
+      required: true
+
 
