@@ -39,11 +39,11 @@ body:
       label: 난이도
       description: 문제 난이도
       options:
-        - ⭐️
-        - ⭐️⭐️
-        - ⭐️⭐️⭐️
-        - ⭐️⭐️⭐️⭐️
-        - ⭐️⭐️⭐️⭐️⭐️
+        - 1단계 / 브론즈
+        - 2단계 / 실버
+        - 3단계 / 골드
+        - 4단계 / 플래티넘
+        - 5단계 / 루비 +
     validations:
       required: true
       
