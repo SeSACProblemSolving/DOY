@@ -1,55 +1,62 @@
-name: Problem Solving Template
-description: 알고리즘 문제를 풀면서 공부하고 고민한 내용을 적습니다.
-title: "[PS] Title"
+name: 알고리즘테스트 공부 템플릿
+description: 알고리즘 문제를 풀 때 사용하는 템플릿
+title: "[플랫폼] 알고리즘 제목"
 labels: ["PS"]
-assignees: heydoy
 
 body:
   - type: input
-    id: topic
+    id: ps-title
     attributes:
-      label: Topic
-      description: 무엇을 준비하고 공부했는지 
-      placeholder: e.g. SMS Auth 확인하는 기능
+      label: 알고리즘 문제
+      description: 알고리즘 문제 플랫폼과 제목을 적기
+      placeholder: "e.g. [백준] 동전 옮기기"
     validations:
       required: true
       
   - type: textarea
-    id: reference
+    id: ps-contents
     attributes:
-      label: Reference
-      description: 참고한 내용들
-      placeholder: e.g. 이것이코딩테스트다,공식문서
+      label: 알고리즘 설명
+      description: 알고리즘 문제풀이와 고민 내용 적기
+      placeholder: e.g. 구현 문제로, Swift에서 실수의 경우 나머지연산 메서드가 다른 언어들과 달랐다. 
+    validations:
+      required: true
+
+  - type: textarea
+    id: related-ps
+    attributes:
+      label: 관련 문제
+      description: 비슷한 문제가 있을 경우 체크 
       value: |
-        ## 공식문서
-        - https://developer.apple.com
-        ## 공식문서
-        - https://developer.apple.com
-        
+        - e.g. [프로그래머스] 학생수 세기 
     validations:
       required: false
       
   - type: dropdown
     id: level
     attributes:
-      label: Level
-      description: 난이도 (수정중)
+      label: 난이도
+      description: 문제 난이도
       options:
-        - 1단계 / 브론즈
-        - 2단계 / 실버 
-        - 3단계 / 골드
-        - 4단계 + 
-        
-  validations:
-    required: true
-
-  - type: input
-    id: period
-    attributes:
-      label: Period
-      description: 문제 풀이 시작날짜(소요 시간)
-      placeholder: MM/dd(E) h시간 e.g. 11/08(화) 3시간
+        - ⭐️
+        - ⭐️⭐️
+        - ⭐️⭐️⭐️
+        - ⭐️⭐️⭐️⭐️
+        - ⭐️⭐️⭐️⭐️⭐️
     validations:
       required: true
-
-
+      
+  - type: input
+    id: expected-period
+    attributes:
+      label: 문제 푸는데 드는 예상 소요 시간
+      placeholder: ~ h 시간  
+    validations:
+      required: true
+  - type: input
+    id: real-period
+    attributes:
+      label: 실제 소요 시간
+      placeholder: ~ h 시간 
+    validations:
+      required: false
