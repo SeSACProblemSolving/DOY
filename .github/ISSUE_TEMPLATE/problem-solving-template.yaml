@@ -2,6 +2,7 @@ name: 알고리즘 테스트 리뷰 템플릿
 description: 알고리즘 문제를 풀고 리뷰 시 사용하는 템플릿
 title: "[플랫폼] 알고리즘 제목"
 labels: ["PS"]
+assignees: heydoy
 
 body:
   - type: input
