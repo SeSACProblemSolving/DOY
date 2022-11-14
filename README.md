@@ -10,4 +10,4 @@
 
 | 날짜 | 내용 | 
 |--|--|
-|11/14(월) | [너비우선탐색 @스위프트 알고리즘 클럽](https://github.com/kodecocodes/swift-algorithm-club/tree/master/Breadth-First%20Search)
+|11/14(월) | [너비우선탐색 @스위프트 알고리즘 클럽](https://github.com/SeSACProblemSolving/DOY/issues/1)
